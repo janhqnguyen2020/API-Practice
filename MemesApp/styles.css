@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-size: 10em;
+}
+
+/*White container that has the content*/
+.container {
+    width: 80%;
+    max-width: 37.5em;
+    padding: 3em 1.5em;
+    background-color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.8em;
+    box-shadow: 0 1.4em 3em rgba(20, 16, 39, 0.3);
+}
+
+/*Format image*/
+.container img {
+    display: block;
+    height: 25em;
+    max-width: 80%;
+    margin: 0 auto 1em auto;
+}
+
+/* HAHAHAHAHA text */
+.container h3 {
+    display: block;
+    font-size: 16px;
+    margin: 0.5em auto 2em auto;
+    width: 70%;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    color: #035538;
+    letter-spacing: 0.03em;
+}
+
+.container button {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0.8em 2em;
+    border-radius: 20em;
+    background-color: #035538;
+    color: white;
+    border-color: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        font-size: 14px;
+    }
+}
